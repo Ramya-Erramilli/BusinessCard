@@ -13,6 +13,8 @@
 		2D1B6C1424AA2EFE00FB434F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B6C1324AA2EFE00FB434F /* Assets.xcassets */; };
 		2D1B6C1724AA2EFE00FB434F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B6C1624AA2EFE00FB434F /* Preview Assets.xcassets */; };
 		2D1B6C1A24AA2EFE00FB434F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B6C1824AA2EFE00FB434F /* LaunchScreen.storyboard */; };
+		2D1B6C2324AA312800FB434F /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B6C2224AA312800FB434F /* Cookie-Regular.ttf */; };
+		2D1B6C2524AA36D900FB434F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B6C2424AA36D900FB434F /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2D1B6C1624AA2EFE00FB434F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D1B6C1924AA2EFE00FB434F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D1B6C1B24AA2EFE00FB434F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1B6C2224AA312800FB434F /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cookie-Regular.ttf"; path = "../../../../../../Downloads/Cookie/Cookie-Regular.ttf"; sourceTree = "<group>"; };
+		2D1B6C2424AA36D900FB434F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		2D1B6C0C24AA2EFA00FB434F /* RamyaCard */ = {
 			isa = PBXGroup;
 			children = (
+				2D1B6C2124AA311700FB434F /* Fonts */,
 				2D1B6C0D24AA2EFA00FB434F /* AppDelegate.swift */,
 				2D1B6C0F24AA2EFA00FB434F /* SceneDelegate.swift */,
 				2D1B6C1124AA2EFA00FB434F /* ContentView.swift */,
+				2D1B6C2424AA36D900FB434F /* InfoView.swift */,
 				2D1B6C1324AA2EFE00FB434F /* Assets.xcassets */,
 				2D1B6C1824AA2EFE00FB434F /* LaunchScreen.storyboard */,
 				2D1B6C1B24AA2EFE00FB434F /* Info.plist */,
@@ -73,6 +79,14 @@
 				2D1B6C1624AA2EFE00FB434F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D1B6C2124AA311700FB434F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B6C2224AA312800FB434F /* Cookie-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,7 @@
 				2D1B6C1A24AA2EFE00FB434F /* LaunchScreen.storyboard in Resources */,
 				2D1B6C1724AA2EFE00FB434F /* Preview Assets.xcassets in Resources */,
 				2D1B6C1424AA2EFE00FB434F /* Assets.xcassets in Resources */,
+				2D1B6C2324AA312800FB434F /* Cookie-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1B6C2524AA36D900FB434F /* InfoView.swift in Sources */,
 				2D1B6C0E24AA2EFA00FB434F /* AppDelegate.swift in Sources */,
 				2D1B6C1024AA2EFA00FB434F /* SceneDelegate.swift in Sources */,
 				2D1B6C1224AA2EFA00FB434F /* ContentView.swift in Sources */,
